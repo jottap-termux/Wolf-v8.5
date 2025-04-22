@@ -105,3 +105,5 @@ MIT License - Use, modifique e compartilhe! ❤️
 ---
 
 🎶 **Agora é só colar o link e curtir suas músicas!** 🎶
+
+![1745347639511885127714453648181](https://github.com/user-attachments/assets/6985e64f-db79-46f1-b51d-10dbdf224509)

@@ -1,71 +1,107 @@
-# Wolf-v8.5 - Downloader de Mídia
+# 🐺 Wolf-v8.5 - Seu Assistente de Downloads de Música e Vídeo  
 
-## 📌 Visão Geral
-Wolf-v8.5 é um script Bash para baixar músicas e vídeos de várias plataformas como YouTube e Spotify, convertendo-os para MP3 quando necessário.
+**Transforme links em músicas e vídeos com facilidade!**  
 
-## 🌟 Recursos
-- Download de vídeos do YouTube (via yt-dlp)
-- Download/conversão de músicas do Spotify (via spotdl)
-- Conversão para MP3 automática
-- Suporte ao Termux (Android)
-- Interface simples com banners coloridos
+Wolf-v8.5 é um script simples e poderoso que baixa e converte músicas e vídeos de plataformas como **YouTube, Spotify** e muito mais. Ideal para quem quer criar sua playlist offline sem complicação!  
 
-## 📥 Plataformas Suportadas
-- YouTube
-- Spotify
-- Vários outros sites suportados pelo yt-dlp
+---
 
-## 🛠️ Pré-requisitos
-- Python 3
-- pip/pip3
-- ffmpeg (instalado automaticamente no Termux)
+## 🔥 Recursos Incríveis  
 
-## ⚙️ Instalação
-1. Clone o repositório:
+✅ **Baixa vídeos e músicas** direto do YouTube, Spotify e outros sites  
+✅ **Converte para MP3** automaticamente (ótimo para playlists)  
+✅ **Suporte ao Termux** (roda no seu Android!)  
+✅ **Interface amigável** com menu intuitivo  
+✅ **Rápido e leve** - sem bloatware ou instalações complexas  
+
+---
+
+## 📥 Como Instalar  
+
+### **No Linux ou Termux (Android)**  
+
+1️⃣ **Primeiro, clone o repositório:**  
 ```bash
 git clone https://github.com/jottap-termux/Wolf-v8.5.git
 cd Wolf-v8.5
-```
+```  
 
-2. Execute o script de instalação:
+2️⃣ **Dê permissão e execute o instalador:**  
 ```bash
 chmod +x install.sh
 ./install.sh
-```
+```  
 
-3. (Opcional) Para instalar manualmente as dependências:
-```bash
-pip install --upgrade requests yt-dlp spotdl
-```
+✨ **Pronto!** O script vai instalar tudo automaticamente.  
 
-## 🚀 Como Usar
-Execute o script principal:
+---
+
+## 🎯 Como Usar  
+
+Execute o Wolf-v8.5:  
 ```bash
 ./wolf-v8.sh
-```
+```  
 
-Siga as instruções no menu para:
-1. Baixar músicas/vídeos
-2. Definir qualidade
-3. Escolher formato de saída
+### **Opções disponíveis:**  
+🔹 **1. Baixar Música/Áudio** (converte para MP3)  
+🔹 **2. Baixar Vídeo** (em várias qualidades)  
+🔹 **3. Definir qualidade** (HD, Full HD, etc.)  
+🔹 **4. Escolher pasta de destino**  
 
-## 🛠️ Dependências
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Fork do youtube-dl com melhorias
-- [spotdl](https://github.com/spotDL/spotify-downloader) - Downloader de músicas do Spotify
-- [ffmpeg](https://ffmpeg.org/) - Para conversão de formatos
+Basta colar o link (YouTube, Spotify, etc.) e relaxar! 🎧  
 
-## ❓ Problemas Comuns/Soluções
-- **Erro de permissão**: Execute com `sudo` ou use `--user`
-- **Faltando ffmpeg**: No Termux, execute `pkg install ffmpeg`
-- **Erros no spotdl**: Atualize com `pip install --upgrade spotdl`
+---
 
-## 📄 Licença
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+## 🚑 Solução de Problemas  
 
-## 👥 Créditos
-- Desenvolvido por [jottap-termux](https://github.com/jottap-termux)
-- Baseado em yt-dlp e spotdl
+### ⚠️ **Erros comuns e como resolver:**  
+❌ **"Pip não encontrado"** → Instale Python e Pip primeiro:  
+```bash
+apt install python3 python3-pip  # Linux/Termux
+```  
 
-## 🔗 Links Úteis
-- [Lista de sites suportados pelo yt-dlp](https://yt-dlp.org/supportedsites.html)
-- [Documentação do spotdl](https://spotdl.readthedocs.io/)
+❌ **"FFmpeg faltando"** (no Termux):  
+```bash
+pkg install ffmpeg
+```  
+
+❌ **"Permissão negada"** → Tente com `sudo` ou:  
+```bash
+pip install --user requests yt-dlp spotdl
+```  
+
+---
+
+## 📌 Dicas Extras  
+
+🔸 **Quer baixar uma playlist inteira?**  
+O Wolf-v8.5 funciona com links de playlists do YouTube e Spotify!  
+
+🔸 **Precisa de mais sites?**  
+O [yt-dlp suporta +1000 sites](https://yt-dlp.org/supportedsites.html) – experimente!  
+
+🔸 **No Termux?**  
+Use `termux-setup-storage` para salvar músicas no cartão SD.  
+
+---
+
+## 🌟 Por que usar Wolf-v8.5?  
+
+✔ **Sem anúncios ou limites**  
+✔ **Rápido e sem complicação**  
+✔ **Funciona offline depois de baixar**  
+✔ **Leve e open-source**  
+
+---
+
+## 📜 Licença  
+
+MIT License - Use, modifique e compartilhe! ❤️  
+
+**Criado por:** [jottap-termux](https://github.com/jottap-termux)  
+**Contribua no GitHub:** [Wolf-v8.5](https://github.com/jottap-termux/Wolf-v8.5)  
+
+---
+
+🎶 **Agora é só colar o link e curtir suas músicas!** 🎶
